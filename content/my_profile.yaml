@@ -1,0 +1,23 @@
+# ============================================================
+# content/example_student.yaml
+# ============================================================
+# This is an example student profile. Copy this file to
+# something like content/my_profile.yaml, fill in your own
+# information, and update portfolio_config.yaml to point to it.
+# ============================================================
+
+name: "Juliana Antovski"
+tagline: "Aspiring Data Scientist | MSU Junior 
+
+about: |
+  I am a current junior at Michigan State University majoring in data science,
+  building hands on experience with data piplines, statistical analysis and 
+  machine learning. I am passionate about turning turning raw data into actionable 
+  insights and I am actively developing my skills in Python, SQL, and Git as I look 
+  toward data analyst and data sciene roles after graduation.  
+
+
+# Contact information — remove any fields you prefer not to share
+email: "antovsk4@msu.edu"
+linkedin: "www.linkedin.com/in/juliana-antovski-10269b382"
+github: "https://github.com/julianto1006"
