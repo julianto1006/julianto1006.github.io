@@ -1,10 +1,6 @@
 # ============================================================
 # content/my_profile.yaml
 # ============================================================
-# This is an example student profile. Copy this file to
-# something like content/my_profile.yaml, fill in your own
-# information, and update portfolio_config.yaml to point to it.
-# ============================================================
 
 name: "Juliana Antovski"
 tagline: "Aspiring Data Scientist | Michigan State University Junior"
