@@ -1,0 +1,49 @@
+# ============================================================
+# content/projects/my_project_3.yaml
+# ============================================================
+# project: NYC 311 Service Requests
+# ============================================================
+
+title: "NYC 311 Service Request Resolution Prediction"
+
+short_summary: >
+  Analyzed NYC 311 service requests to understand response times
+  and built a simple model to predict whether a request will be
+  resolved within 3 days. Outputs summary data and model results,
+  and runs in a structured notebook workflow.
+
+tech_stack:
+  - Python
+  - pandas
+  - Matplotlib
+  - Numpy
+  - Jupyter Notebooks
+  - SQL 
+  - AWS S3
+  - AWS Athena
+  - AWS SageMaker
+
+
+problem_statement: >
+  Raw 311 service request data doesn't clearly show which requests
+  are resolved quickly and which are delayed. Without this insight
+  it's harder to prioritize requests and assign city resources
+  efficiently.
+
+approach: >
+  Queried and cleaned 311 service request data using AWS Athena.
+  Created a target variable for resolution within 3 days and
+  engineered features such as complaint type, agency, borough,
+  and time of submission. Trained a binary classifier using 
+  SageMaker's Linear Learner algorithm and evaluated its performance 
+  to distinguish fast vs. slow resolutions.
+
+results_impact: >
+  The analysis showed that resolution time varies by complaint type,
+  agency, and time of submission. The model was able to identify
+  patterns in faster and slower requests providing a simple way
+  to flag requests that may take longer to resolve. This can help
+  guide better prioritization of incoming service requests.
+
+repo_url: "https://github.com/julianto1006/aws-nyc311-antovsk4.git"
+image_path: "img/project3.png"

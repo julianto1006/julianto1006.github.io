@@ -1,47 +1,53 @@
 # ============================================================
-# content/projects/example_project_1.yaml
+# content/projects/my_project_1.yaml
 # ============================================================
-# Example project: Predicting the Best Nap Spots on Campus
-# Copy this file to create your own project entries.
+# project: The Effect of Physical Activity on Sleep Quality
 # ============================================================
 
-title: "Optimal Nap Spot Prediction Across Campus"
+title: "The Effect of Physical Activity on Sleep Quality"
 
 short_summary: >
-  Built a model to identify the best nap locations on MSU's campus based
-  on sunlight exposure, foot traffic, grass quality, and proximity to
-  food smells. Findings have been peer-reviewed by three other dogs and
-  were described as "life-changing" and "very good."
+  Analyzed data from 452 individuals ages ranging from 9-69 to explore whether exercise
+  frequency affects sleep quality. Found that working out more often leads
+  to better sleep efficiency and deeper sleep, but surprisingly does not
+  have much effect on REM sleep. Results suggest that regular physical
+  activity is a meaningful contributor to overall sleep quality.
+
 
 tech_stack:
   - Python
-  - scikit-learn
   - pandas
   - matplotlib
+  - seaborn
   - Jupyter Notebooks
 
 problem_statement: >
-  Finding a good nap spot is harder than it looks. Campus is large,
-  conditions change throughout the day, and the best patches of sun
-  move. A mascot operating on intuition alone wastes valuable resting
-  time — a problem that affects productivity, morale, and tail-wagging
-  rates across the entire campus community.
+  Getting quality sleep is harder than it seems. With busy schedules,
+  varying activity levels, and countless factors affecting rest, it can
+  be difficult to know what actually makes a difference. Many people
+  struggle with poor sleep without understanding the role that physical
+  activity plays a challenge that affects energy, focus, and overall
+  health across all age groups.
 
 approach: >
-  Collected location data across 47 candidate nap sites over a full
-  academic semester. Features included average daily sunlight (hours),
-  grass softness score (1–10, assessed manually), nearby food-cart
-  proximity, and pedestrian traffic by hour. Trained a gradient boosting
-  classifier to predict a site's "nap quality" rating and used SHAP
-  values to explain which features mattered most.
+  Sourced a sleep and exercise dataset from Kaggle containing 452
+  individuals ages ranging from 9–69. Features included sleep duration, sleep
+  efficiency, REM sleep percentage, deep sleep percentage, light sleep
+  percentage, number of awakenings, and exercise frequency. Used
+  histograms to explore the distribution of each variable, scatter
+  plots to compare exercise frequency against each sleep metric, and
+  a correlation heatmap to identify which factors had the strongest
+  relationship with one another.
 
 results_impact: >
-  The model achieved 89% accuracy on held-out test sites. Sunlight
-  duration and grass softness were the top two predictive features,
-  while proximity to the student union food court provided a meaningful
-  but secondary boost. A ranked list of top-10 nap sites was distributed
-  to the campus dog community and has since been downloaded 847 times.
+  Analysis revealed that higher exercise frequency was associated with
+  greater sleep efficiency and deeper sleep, while reducing the number
+  of nightly awakenings. Light sleep percentage decreased as exercise
+  frequency increased, suggesting a shift toward more quality sleep
+  stages. REM sleep percentage remained largely unaffected by exercise
+  frequency. Overall, the findings support that regular physical activity
+  is a meaningful contributor to better sleep quality.
 
-repo_url: "https://github.com/zeke-wonder-dog/nap-spot-predictor"
-notebook_url: "https://github.com/zeke-wonder-dog/nap-spot-predictor/blob/main/analysis.ipynb"
-image_path: "img/placeholder_project_1.png"
+repo_url: "https://github.com/julianto1006/cmse201_PhysicalActivity_SleepQuality.git"
+notebook_url: "https://github.com/julianto1006/cmse201_PhysicalActivity_SleepQuality/blob/main/PhysicalActivity_SleepQuality.ipynb"
+image_path: "img/project1.png"

@@ -1,0 +1,50 @@
+# ============================================================
+# content/projects/my_project_2.yaml
+# ============================================================
+# project: Regional Sales Analysis
+# ============================================================
+
+title: "Regional Sales Analysis"
+
+short_summary: >
+  Analyzed January sales transactions across four U.S. regions and
+  three product categories to identify which segments drive the most
+  revenue and unit volume. Outputs a summary CSV and bar charts
+  and runs in Docker so anyone can reproduce the results without
+  touching their own Python environment.
+
+tech_stack:
+  - Python
+  - pandas
+  - Matplotlib
+  - Numpy
+  - Jupyter Notebooks
+  - Docker 
+  - VS code
+  - venv 
+  - conda 
+
+problem_statement: >
+  Raw sales data alone does not reveal which regions or product
+  categories are performing best. Without a structured analysis,
+  business decisions around inventory and resource allocation are
+  based on guesswork rather than evidence.
+
+approach: >
+  Combined January sales transactions with a customer lookup table
+  to summarize revenue and units sold by region and product category.
+  Generated two bar charts and a summary CSV saved to the outputs
+  folder. The full pipeline was containerized using Docker for
+  reproducibility.
+
+results_impact: >
+  The Northeast generated the highest total revenue while hardware
+  was the top performing category by units sold across most regions.
+  The category unit volume chart revealed that high unit count does
+  not always correspond to high revenue, adding a perspective the
+  original revenue plot alone could not show. The full pipeline
+  can be reproduced with a single Docker command with no local
+  environment setup required.
+
+repo_url: "https://github.com/julianto1006/cmse492-hw01-antovsk4.git"
+image_path: "img/project2.png"
